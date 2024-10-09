@@ -1,0 +1,44 @@
+{
+  "cod":"200",
+  "city":{
+
+    "id":625144,
+    "name":"Minsk",
+    "coord":{
+
+      "lon":27.5667,
+      "lat":53.9
+    },
+    "country":"BY"
+  },
+  "message":0.460551292,
+  "list":[
+    {
+      "dt":1643673600,
+      "humidity":90.6,
+      "pressure":1009.2,
+      "temp":{
+        "average":270.7,
+        "average_max":272.93,
+        "average_min":267.86,
+        "record_max":280.84,
+        "record_min":258.15
+      },
+      "wind_speed":4.33
+    },
+    {
+      "dt":1646179200,
+      "humidity":83.75,
+      "pressure":1007.06,
+      "temp":{
+
+        "average":273.27,
+        "average_max":275.91,
+        "average_min":270.45,
+        "record_max":282.15,
+        "record_min":258.15
+      },
+      "wind_speed":4.57
+    }
+  ]
+}

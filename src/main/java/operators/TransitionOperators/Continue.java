@@ -1,4 +1,6 @@
-package operators.TransitionOperators;/* Continue - позволяет опустить участок кода и вернуться в начало цикла. */
+/* Continue - позволяет опустить участок кода и вернуться в начало цикла. */
+
+package operators.TransitionOperators;
 
 public class Continue {
     public static void main(String[] args) {

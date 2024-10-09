@@ -1,0 +1,6 @@
+ID,ACCOUNT_TYPE,AMOUNT
+1,Free,10
+2,Paid,7
+3,Trial,12
+4,Blocked,16
+5,Deleted,24
