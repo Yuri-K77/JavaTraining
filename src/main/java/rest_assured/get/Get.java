@@ -1,7 +1,7 @@
-package rest_assured.get;
+/*package rest_assured.get;
 
 import io.restassured.RestAssured;
-import org.junit.Test;
+import junit.Test;
 
 import static org.hamcrest.Matchers.is;
 
@@ -19,4 +19,4 @@ public class Get {
                 and()
                 .body("args.foo2", is("bar2"));
     }
-}
+}*/

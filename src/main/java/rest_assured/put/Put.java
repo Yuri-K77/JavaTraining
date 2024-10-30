@@ -1,4 +1,4 @@
-package rest_assured.put;
+/*package rest_assured.put;
 
 import io.restassured.specification.RequestSpecification;
 import io.restassured.response.Response;
@@ -25,4 +25,4 @@ public class Put {
         System.out.println(response.asString());
         Assert.assertEquals(statusCode, 200);
     }
-}
+}*/

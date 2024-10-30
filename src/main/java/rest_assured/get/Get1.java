@@ -1,4 +1,4 @@
-package rest_assured.get;
+/*package rest_assured.get;
 
 import io.restassured.http.ContentType;
 import org.junit.Test;
@@ -25,4 +25,4 @@ public class Get1 {
                 .statusCode(statusCode)
                 .body("birth_year", equalTo("19BBY"));
     }
-}
+}*/

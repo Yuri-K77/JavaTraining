@@ -1,4 +1,4 @@
-package rest_assured.get;
+/*package rest_assured.get;
 
 import io.restassured.http.ContentType;
 import org.junit.Test;
@@ -23,4 +23,4 @@ public class Get2 {
 
     }
 
-}
+}*/

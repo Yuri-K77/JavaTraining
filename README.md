@@ -1,1 +1,1 @@
-# JavaTraining
+# This is training project for Java tasks 
