@@ -1,4 +1,4 @@
-package Acquaintances;
+package acquaintances;
 
 public class Users {
     String name;

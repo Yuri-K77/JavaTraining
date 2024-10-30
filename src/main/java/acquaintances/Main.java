@@ -1,4 +1,4 @@
-package Acquaintances;
+package acquaintances;
 
 public class Main {
     public static void main(String[] args) {
