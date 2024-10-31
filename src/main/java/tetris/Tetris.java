@@ -1,30 +1,34 @@
 package tetris;
 
+import java.util.ArrayList;
+
 public class Tetris {
 
     public static void main(String[] args) {
 
-        String[] array = {"Line", "Square", "Lightning"};
+        System.out.println("1. First sorting of array");
+        Common[] array = {new Line(), new Square(), new Lighting()};
 
-        int a = array.length;
+        for (int i = 0; i < array.length; i++) {
+            array[i].left();
+            array[i].right();
+            array[i].rotate();
+            array[i].down();
+            System.out.println("\t");
+        }
 
-        for (int i = 0; i < a - 2; i++) {
-            System.out.println("LEFT ");
-            System.out.println("RIGHT");
-            System.out.println("I-ROTATE");
-            System.out.println("DOWN" + "\n");
-            for (int j = 0; j < a - 2; j++) {
-                System.out.println("LEFT ");
-                System.out.println("RIGHT");
-                System.out.println("O-ROTATE");
-                System.out.println("DOWN" + "\n");
-                for (int k = 0; k < a - 2; k++) {
-                    System.out.println("LEFT ");
-                    System.out.println("RIGHT");
-                    System.out.println("Z-ROTATE-Z");
-                    System.out.println("Z-DOWN");
-                }
-            }
+        System.out.println("2. Second sorting of ArrayList");
+        ArrayList<Common> list = new ArrayList<>();
+        list.add(new Line());
+        list.add(new Square());
+        list.add(new Lighting());
+
+        for (Common i : list) {
+            i.left();
+            i.right();
+            i.down();
+            i.rotate();
+            System.out.println("\t");
         }
     }
 }
