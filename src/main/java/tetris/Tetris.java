@@ -6,9 +6,9 @@ public class Tetris {
 
     public static void main(String[] args) {
 
-        System.out.println("1. First sorting of array");
         Common[] array = {new Line(), new Square(), new Lighting()};
 
+        System.out.println("1. First sorting of array");
         for (int i = 0; i < array.length; i++) {
             array[i].left();
             array[i].right();
