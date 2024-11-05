@@ -1,6 +1,6 @@
 package tetris;
 
-public class Common {
+public abstract class Common {
 
     public void left() {
         System.out.println("LEFT");
@@ -11,10 +11,7 @@ public class Common {
     }
 
     public void down() {
-        System.out.println("DOWN");
     }
 
-    public void rotate() {
-        System.out.println("ROTATE");
-    }
+    public abstract void rotate();
 }
