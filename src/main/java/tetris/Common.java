@@ -11,6 +11,7 @@ public abstract class Common {
     }
 
     public void down() {
+        System.out.println("DOWN");
     }
 
     public abstract void rotate();
