@@ -1,4 +1,4 @@
-package operators.Logical.canwork;
+package operators.Logical.comparingofages;
 
 import java.util.Scanner;
 

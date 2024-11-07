@@ -20,14 +20,14 @@ package operators.Logical.triangle;
 
 import java.util.Scanner;
 
-public class Main {
+public class Triangle {
 
     private final static String TRIANGLE_EXISTS = "Triangle exists";
     private final static String TRIANGLE_NOT_EXISTS = "Triangle not exists";
 
     public static void main(String[] args) {
 
-        System.out.println("Введите три любых числа: " + "\n");
+        System.out.println("Введите три любых числа: ");
 
         Scanner scanner = new Scanner(System.in);
 
